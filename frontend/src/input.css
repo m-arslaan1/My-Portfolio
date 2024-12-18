@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.reflection::before {
+    content: "Fullstack Web Developer"; 
+    position: absolute;
+    top: -60%;  
+    left: 0%;
+    width: 100%;
+    opacity: 1;   
+    font-size: 6rem;
+  }
